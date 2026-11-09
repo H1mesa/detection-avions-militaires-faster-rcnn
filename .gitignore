@@ -1,0 +1,17 @@
+# Données et poids (trop lourds / non redistribuables)
+student-dataset/
+vignettes_avions/
+dataset/
+images/
+annotations/
+images_evaluation/
+RESULTATS_*/
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
