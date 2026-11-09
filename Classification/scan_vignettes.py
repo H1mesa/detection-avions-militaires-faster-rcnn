@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # Chemin direct vers tes images
-IMAGE_DIR = r'C:\Users\belgh\OneDrive\Bureau\Projet IA\Projet IA\Classification\vignettes_avions'
+IMAGE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'vignettes_avions')
 
 def find_max_dimensions():
     max_w, max_h = 0, 0

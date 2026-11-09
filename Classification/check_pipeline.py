@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 
 # --- CONFIGURATION ---
-IMAGE_DIR = r'C:\Users\belgh\OneDrive\Bureau\Projet IA\vignettes_avions'
+IMAGE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'vignettes_avions')
 IMG_SIZE = (566, 566)
 
 def processing_pipeline(filename):
